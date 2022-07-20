@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Research\dotnet\dempApi\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-07-19T06:09:40.0010970Z;True|2022-07-18T23:04:57.8042170-07:00;</History>
+  </PropertyGroup>
+</Project>
