@@ -19,9 +19,15 @@ namespace MyApp
                 }
             )
             .AddPolicyHandler(
-                    HttpPolicyExtensions.HandleTransientHttpError()
-                        .WaitAndRetryAsync(6, _ => TimeSpan.FromSeconds(5))
-                    );
+                // 实现使用指数退避算法的 HTTP 调用重试
+                // https://docs.microsoft.com/zh-cn/dotnet/architecture/microservices/implement-resilient-applications/implement-http-call-retries-exponential-backoff-polly
+                HttpPolicyExtensions.HandleTransientHttpError()
+                    .WaitAndRetryAsync(6, 
+                        retryAttempt => TimeSpan.FromSeconds(
+                            Math.Pow(2, retryAttempt))
+                    )
+            );
+                    
                     
             return serviceCollection;
         }
