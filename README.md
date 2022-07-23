@@ -46,7 +46,7 @@ See: [Fake JSON Server 中文文档](https://www.cnblogs.com/haogj/p/16482959.ht
 * [ASP.NET Core IHostBuilder](https://www.cnblogs.com/haogj/p/13895947.html)
 * [理解 ASP.NET Core: 实现 Application_Start 和 Application_End](https://www.cnblogs.com/haogj/p/13969359.html)
 
-** Log
+## 日志 Log
 
 * [在 .NET 中集成 Serilog](https://www.cnblogs.com/haogj/p/16437590.html)
 
