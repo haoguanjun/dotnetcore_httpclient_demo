@@ -36,10 +36,23 @@ See: [Fake JSON Server 中文文档](https://www.cnblogs.com/haogj/p/16482959.ht
 * [依赖注入在 dotnet core 中实现与使用：4. 集成 Autofac ](https://www.cnblogs.com/haogj/p/13683730.html)
 * [依赖注入在 dotnet core 中实现与使用：5. 使用支持 Unicode 的 HtmlEncoder](https://www.cnblogs.com/haogj/p/13785680.html)
 
+## Configuration
+
+* [ASP.NET Core: ConfigurationBuilder](https://www.cnblogs.com/haogj/p/13896680.html)
+
 ## Host
 
 * [理解 ASP.NET Core: Host](https://www.cnblogs.com/haogj/p/13885461.html)
+* [ASP.NET Core IHostBuilder](https://www.cnblogs.com/haogj/p/13895947.html)
 * [理解 ASP.NET Core: 实现 Application_Start 和 Application_End](https://www.cnblogs.com/haogj/p/13969359.html)
+
+** Log
+
+* [在 .NET 中集成 Serilog](https://www.cnblogs.com/haogj/p/16437590.html)
+
+## Server
+
+* [ASP.NET Core 中的 Request Feature](https://www.cnblogs.com/haogj/p/16344208.html)
 
 ## 处理管道
 
@@ -48,6 +61,7 @@ See: [Fake JSON Server 中文文档](https://www.cnblogs.com/haogj/p/16482959.ht
 ## 认证
 
 * [理解 ASP.NET Core： 认证](https://www.cnblogs.com/haogj/p/13991648.html)
+* [理解 ASP.NET Core：Cookie 认证](https://www.cnblogs.com/haogj/p/14040546.html)
 
 ## HttpClient
 
@@ -64,3 +78,8 @@ See: [Fake JSON Server 中文文档](https://www.cnblogs.com/haogj/p/16482959.ht
 * [在 .NET Core 中结合 HttpClientFactory 使用 Polly（中篇）](https://www.cnblogs.com/willick/p/HttpClientFactory-Polly-2.html)
 * [在 .NET Core 中结合 HttpClientFactory 使用 Polly（下篇）](https://www.cnblogs.com/willick/p/HttpClientFactory-Polly-3.html)
 * [通过 IHttpClientFactory 和 Polly 策略实现使用指数退避算法的 HTTP 调用重试](https://docs.microsoft.com/zh-cn/dotnet/architecture/microservices/implement-resilient-applications/implement-http-call-retries-exponential-backoff-polly)
+
+
+## Web API
+
+* [使用 ASP.NET Core 5 Web API 创建可发现的 HTTP API](https://www.cnblogs.com/haogj/p/14494731.html)
