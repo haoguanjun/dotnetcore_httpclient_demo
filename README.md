@@ -48,6 +48,27 @@ See: [Fake JSON Server 中文文档](https://www.cnblogs.com/haogj/p/16482959.ht
 
 ## 日志 Log
 
+.NET 环境下原生就支持多种形式的日志导出方式，它们各有其特殊的使用场景和用途。
+### 1. Debugger
+该静态类型是针对开发环境下，例如在 Visual Studio 开发中，支持 .NET 与调试器进行通信的媒介。在将调试器附加到应用进程之后，可以在 Dubugger 调试输出窗口中看到输出的日志信息。它只在调试模式有效。使用较少。
+
+### 2. TraceSource 跟踪日志
+基于观察者模式，只有一种 TraceSource 类型，可以通过名称和最低日志级别创建一个 TraceSource 对象，入喉记录日志。在调试模式下，因为日志框架注册了类型为 DefaultTraceListener 的监听器，可以在 Visual Studio 的输出窗口中看到日志输出。
+
+### 3. EventSource 事件日志
+支持 ETW，可以有多种派生类型进行区分。性能高效。EventListener 并不需要显式注册。
+
+支持强类型编程模型：
+1. 需要从 EventSource 派生出具体的 EventSource
+2. 日志消息的内容可以通过自定义的数据类型来承载
+
+由于 EventSource 具有向 ETW 日志系统发送日志的能力，可以利用一些工具来跨进程收集到这些消息。
+* PerfView
+
+### 4. 诊断日志 DiagnosticSource
+
+DiagnosticSource 是进程内的日志方案，所以可以将日志内容以任何格式直接发送到订阅者，由订阅者自己决定对日志内容的处理。事件的触发和监听是同步执行的。
+
 * [在 .NET 中集成 Serilog](https://www.cnblogs.com/haogj/p/16437590.html)
 
 ## Server
