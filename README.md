@@ -26,6 +26,10 @@ Fake JSON Server 是使用 .NET Web API 开发的模拟 Web API 服务器，提�
 * 不需要数据库，数据保存在单个 JSON 文件中
 * 不需要准备，只需要启动该服务器，API 就可以用于任何数据
 
+### 项目地址
+![.NET Fake JSON Server 模拟 JSON 服务器](https://github.com/haoguanjun/dotnet-fake-json-server)
+
+### 文档
 See: [Fake JSON Server 中文文档](https://www.cnblogs.com/haogj/p/16482959.html)
 
 ## 依赖注入
