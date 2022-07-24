@@ -63,7 +63,7 @@ See: [Fake JSON Server 中文文档](https://www.cnblogs.com/haogj/p/16482959.ht
 2. 日志消息的内容可以通过自定义的数据类型来承载
 
 由于 EventSource 具有向 ETW 日志系统发送日志的能力，可以利用一些工具来跨进程收集到这些消息。
-* PerfView
+* [PerfView](https://github.com/Microsoft/perfview)
 
 ### 4. 诊断日志 DiagnosticSource
 
