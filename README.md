@@ -3,6 +3,9 @@
 ## .NET 是什么？
 
 * [一文搞清到底什么是 .NET?](https://www.cnblogs.com/haogj/p/9265031.html)
+* [.NET 官方站点](https://dot.net/)
+* [Benchmarks](https://www.techempower.com/benchmarks/#section=data-r20)
+* [.NET 的测试项目](https://github.com/TechEmpower/FrameworkBenchmarks/tree/master/frameworks/CSharp/aspnetcore)
 
 ## RESTful Web API 设计
 
