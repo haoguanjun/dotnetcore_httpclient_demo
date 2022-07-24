@@ -32,6 +32,12 @@ Fake JSON Server 是使用 .NET Web API 开发的模拟 Web API 服务器，提�
 ### 文档
 See: [Fake JSON Server 中文文档](https://www.cnblogs.com/haogj/p/16482959.html)
 
+## Web 开发工具
+
+* [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) 通用的 HTTP 协议查看器
+* [Postman](https://www.postman.com/downloads/) 专业的 API 开发测试工具
+* [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) 集成于 Visual Studio Code 中的 REST 客户端工具
+
 ## 依赖注入
 
 * [依赖注入在 dotnet core 中实现与使用：1 基本概念 ](https://www.cnblogs.com/haogj/p/11370314.html)
