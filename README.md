@@ -87,6 +87,15 @@ DiagnosticSource 是进程内的日志方案，所以可以将日志内容以任
 
 ## HttpClient
 
+.NET Core 2.1 开始引入的 HttpClientFactory 改善了针对 HttpClient 的使用。
+
+AddTransientHttpErrorPolicy() 方法，可以很方便地配置一个策略来处理下面这些典型的HTTP调用错误
+* 网络错误（HttpRequestException 异常）
+* HTTP状态码 5XX（服务器错误）
+* HTTP状态码 408（请求超时）
+
+技术资料
+
 * [HttpClientFactory in ASP.NET Core 2.1 Part 1](https://www.cnblogs.com/haogj/p/13807222.html)
 * [HttpClientFactory in ASP.NET Core 2.1 Part 2：定义命名和类型化的客户端](https://www.cnblogs.com/haogj/p/13807218.html)
 * [HttpClientFactory in ASP.NET Core 2.1 Part 3: 对处理器使用对外请求中间件](https://www.cnblogs.com/haogj/p/13807210.html)
@@ -100,6 +109,7 @@ DiagnosticSource 是进程内的日志方案，所以可以将日志内容以任
 * [Microsoft.Extensions.Http](https://www.nuget.org/packages/Microsoft.Extensions.Http/), 提供注册到依赖注入容器的扩展方法，提供对 HttpClientFactory 模式的支持
 * [System.Net.Http.Json](https://www.nuget.org/packages/System.Net.Http.Json)，提供对于 HttpClient 和 HttpContent 的扩展方法，通过 System.Text.Json 提供对于序列化和反序列化的支持
 * [Microsoft.Extensions.Http.Polly](https://www.nuget.org/packages/Microsoft.Extensions.Http.Polly/) 提供 将 Polly 集成到 IHttpClientFactory。增加对于瞬时失败处理，以及诸如重试、断路器、超时、隔板隔离以及回落等流畅策略支持弹性访问。
+* [Polly.Extensions.Http](https://www.nuget.org/packages/Polly.Extensions.Http) Polly 自己的策略扩展包
 
 ## Polly
 
