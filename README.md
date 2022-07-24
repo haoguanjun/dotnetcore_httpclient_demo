@@ -146,7 +146,7 @@ AddTransientHttpErrorPolicy() 方法，可以很方便地配置一个策略来�
 
 ## Polly
 
-## 技术资料
+### 技术资料
 * [在 .NET Core 中结合 HttpClientFactory 使用 Polly（上篇）](https://mp.weixin.qq.com/s/VfyrwARblQJgS7D2Q_Ny6A)
 * [在 .NET Core 中结合 HttpClientFactory 使用 Polly（中篇）](https://www.cnblogs.com/willick/p/HttpClientFactory-Polly-2.html)
 * [在 .NET Core 中结合 HttpClientFactory 使用 Polly（下篇）](https://www.cnblogs.com/willick/p/HttpClientFactory-Polly-3.html)
