@@ -143,14 +143,19 @@ AddTransientHttpErrorPolicy() 方法，可以很方便地配置一个策略来�
 * [Microsoft.Extensions.Http](https://www.nuget.org/packages/Microsoft.Extensions.Http/), 提供注册到依赖注入容器的扩展方法，提供对 HttpClientFactory 模式的支持
 * [System.Net.Http.Json](https://www.nuget.org/packages/System.Net.Http.Json)，提供对于 HttpClient 和 HttpContent 的扩展方法，通过 System.Text.Json 提供对于序列化和反序列化的支持
 * [Microsoft.Extensions.Http.Polly](https://www.nuget.org/packages/Microsoft.Extensions.Http.Polly/) 提供 将 Polly 集成到 IHttpClientFactory。增加对于瞬时失败处理，以及诸如重试、断路器、超时、隔板隔离以及回落等流畅策略支持弹性访问。
-* [Polly.Extensions.Http](https://www.nuget.org/packages/Polly.Extensions.Http) Polly 自己的策略扩展包
 
 ## Polly
 
+## 技术资料
 * [在 .NET Core 中结合 HttpClientFactory 使用 Polly（上篇）](https://mp.weixin.qq.com/s/VfyrwARblQJgS7D2Q_Ny6A)
 * [在 .NET Core 中结合 HttpClientFactory 使用 Polly（中篇）](https://www.cnblogs.com/willick/p/HttpClientFactory-Polly-2.html)
 * [在 .NET Core 中结合 HttpClientFactory 使用 Polly（下篇）](https://www.cnblogs.com/willick/p/HttpClientFactory-Polly-3.html)
 * [通过 IHttpClientFactory 和 Polly 策略实现使用指数退避算法的 HTTP 调用重试](https://docs.microsoft.com/zh-cn/dotnet/architecture/microservices/implement-resilient-applications/implement-http-call-retries-exponential-backoff-polly)
+
+
+### NuGet
+* [Polly](https://www.nuget.org/packages/Polly/) Polly 的核心包，大多数场景不需要直接引用，会通过间接方式引用它。
+* [Polly.Extensions.Http](https://www.nuget.org/packages/Polly.Extensions.Http) Polly 自己的策略扩展包，一般也是通过间接方式使用
 
 
 ## Web API
