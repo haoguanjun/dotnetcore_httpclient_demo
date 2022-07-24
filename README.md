@@ -69,6 +69,7 @@ See: [Fake JSON Server 中文文档](https://www.cnblogs.com/haogj/p/16482959.ht
 
 DiagnosticSource 是进程内的日志方案，所以可以将日志内容以任何格式直接发送到订阅者，由订阅者自己决定对日志内容的处理。事件的触发和监听是同步执行的。
 
+### 5. 集成 Serilog
 * [在 .NET 中集成 Serilog](https://www.cnblogs.com/haogj/p/16437590.html)
 
 ## Server
@@ -92,6 +93,13 @@ DiagnosticSource 是进程内的日志方案，所以可以将日志内容以任
 * [HttpClientFacotry Part 4: 集成 Polly 处理瞬时失效](https://www.cnblogs.com/haogj/p/13807208.html)
 * [HttpClientFactory in ASP.NET Core 2.1 Part 5: 日志](https://www.cnblogs.com/haogj/p/13807204.html)
 * [.NetCore HttpClient发送请求的时候为什么自动带上了一个RequestId头部？](https://www.cnblogs.com/haogj/p/13952211.html)
+
+### NuGet
+
+* [System.Net.Http](https://www.nuget.org/packages/System.Net.Http) 基础的 HttpClient 定义
+* [Microsoft.Extensions.Http](https://www.nuget.org/packages/Microsoft.Extensions.Http/), 提供注册到依赖注入容器的扩展方法，提供对 HttpClientFactory 模式的支持
+* [System.Net.Http.Json](https://www.nuget.org/packages/System.Net.Http.Json)，提供对于 HttpClient 和 HttpContent 的扩展方法，通过 System.Text.Json 提供对于序列化和反序列化的支持
+* [Microsoft.Extensions.Http.Polly](https://www.nuget.org/packages/Microsoft.Extensions.Http.Polly/) 提供 将 Polly 集成到 IHttpClientFactory。增加对于瞬时失败处理，以及诸如重试、断路器、超时、隔板隔离以及回落等流畅策略支持弹性访问。
 
 ## Polly
 
