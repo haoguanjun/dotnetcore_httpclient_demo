@@ -58,6 +58,7 @@ See: [Fake JSON Server 中文文档](https://www.cnblogs.com/haogj/p/16482959.ht
 
 ### 技术资料
 * [.NET 中的配置](https://docs.microsoft.com/zh-cn/dotnet/core/extensions/configuration)
+* [Options 模式](https://docs.microsoft.com/en-us/dotnet/core/extensions/options)
 * [ASP.NET Core: ConfigurationBuilder](https://www.cnblogs.com/haogj/p/13896680.html)
 
 ### NuGet
@@ -65,6 +66,9 @@ See: [Fake JSON Server 中文文档](https://www.cnblogs.com/haogj/p/16482959.ht
 * [Microsoft.Extensions.Configuration.Json](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Json/) 提供基于 JSON 配置文件支持
 * [Microsoft.Extensions.Configuration.EnvironmentVariables](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.EnvironmentVariables/) 提供基于环境变量的配置支持，环境变量前缀 ASPNET_ENVIRONMENT
 * [Microsoft.Extensions.Configuration.CommandLine ](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.CommandLine/) 提供基于命令行参数的配置支持
+* [Microsoft.Extensions.Configuration.Binder](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Binder/) 提供将配置中的配置数据绑定到对象上，提供 .Get<T> 扩展方法和 Bind() 扩展方法
+* [Microsoft.Extensions.Options](https://www.nuget.org/packages/Microsoft.Extensions.Options/) 基于依赖注入，提供强类型的方式访问配置信息
+* [Microsoft.Extensions.Options.ConfigurationExtensions](https://www.nuget.org/packages/Microsoft.Extensions.Options.ConfigurationExtensions/) 提供 Configure<TOptions> 扩展方法，完成绑定和注册到依赖注入容器两步操作
 
 ## Host
 
