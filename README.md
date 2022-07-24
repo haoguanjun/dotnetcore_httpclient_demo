@@ -33,7 +33,8 @@ Fake JSON Server 是使用 .NET Web API 开发的模拟 Web API 服务器，提�
 [.NET Fake JSON Server 模拟 JSON 服务器](https://github.com/haoguanjun/dotnet-fake-json-server)
 
 ### 文档
-See: [Fake JSON Server 中文文档](https://www.cnblogs.com/haogj/p/16482959.html)
+* [Fake JSON Server 中文文档](https://www.cnblogs.com/haogj/p/16482959.html)
+* [Fiddler 抓取 https 设置详解](https://www.cnblogs.com/joe235/p/14393412.html)
 
 ## Web 开发工具
 
