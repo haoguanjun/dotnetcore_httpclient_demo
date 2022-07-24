@@ -40,15 +40,31 @@ See: [Fake JSON Server 中文文档](https://www.cnblogs.com/haogj/p/16482959.ht
 
 ## 依赖注入
 
+### 技术资料
+
 * [依赖注入在 dotnet core 中实现与使用：1 基本概念 ](https://www.cnblogs.com/haogj/p/11370314.html)
 * [依赖注入在 dotnet core 中实现与使用：2 使用 Extensions DependencyInjection](https://www.cnblogs.com/haogj/p/11375019.html)
 * [依赖注入在 dotnet core 中实现与使用：3 使用 Lazy<T> 延迟实例化](https://www.cnblogs.com/haogj/p/11450422.html)
 * [依赖注入在 dotnet core 中实现与使用：4. 集成 Autofac ](https://www.cnblogs.com/haogj/p/13683730.html)
 * [依赖注入在 dotnet core 中实现与使用：5. 使用支持 Unicode 的 HtmlEncoder](https://www.cnblogs.com/haogj/p/13785680.html)
 
+### NuGet
+* [Microsoft.Extensions.DependencyInjection](https://www.nuget.org/packages/Microsoft.Extensions.DependencyInjection/)
+
 ## Configuration
 
+给定一个或多个配置源，该 IConfiguration 类型提供配置数据的统一视图。 配置是只读的，配置模式不设计为以编程方式可写。 接口 IConfiguration 是所有配置源的单个表示形式，如下图所示：
+![](https://docs.microsoft.com/zh-cn/dotnet/core/extensions/media/configuration-sources.svg#lightbox)
+
+### 技术资料
+* [.NET 中的配置](https://docs.microsoft.com/zh-cn/dotnet/core/extensions/configuration)
 * [ASP.NET Core: ConfigurationBuilder](https://www.cnblogs.com/haogj/p/13896680.html)
+
+### NuGet
+* [Microsoft.Extensions.Configuration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration/) 配置核心包，内置支持基于内存的配置
+* [Microsoft.Extensions.Configuration.Json](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Json/) 提供基于 JSON 配置文件支持
+* [Microsoft.Extensions.Configuration.EnvironmentVariables](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.EnvironmentVariables/) 提供基于环境变量的配置支持，环境变量前缀 ASPNET_ENVIRONMENT
+* [Microsoft.Extensions.Configuration.CommandLine ](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.CommandLine/) 提供基于命令行参数的配置支持
 
 ## Host
 
