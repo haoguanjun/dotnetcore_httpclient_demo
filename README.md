@@ -103,6 +103,34 @@ Fake JSON Server 是使用 .NET Web API 开发的模拟 Web API 服务器，提�
 
 DiagnosticSource 是进程内的日志方案，所以可以将日志内容以任何格式直接发送到订阅者，由订阅者自己决定对日志内容的处理。事件的触发和监听是同步执行的。
 
+### 5. 内置的 Log Provider
+
+Log Provider 负责提供输出日志的持久化，除了只有 Console 仅仅输出到控制台。
+
+Microsoft Extensions 包含如下的日志提供器，作为运行时库的一部分:
+* [Console](https://www.nuget.org/packages/Microsoft.Extensions.Logging.Console/)
+* [Debug](https://www.nuget.org/packages/Microsoft.Extensions.Logging.Debug/)
+* [EventSource](https://www.nuget.org/packages/Microsoft.Extensions.Logging.EventSource/)
+* [EventLog](https://www.nuget.org/packages/Microsoft.Extensions.Logging.EventLog/)
+
+在调用 CreateDefaultBuilder() 的时候, 添加了如下的 logging providers:
+* Console
+* Debug
+* EventSource
+* EventLog (Windows only)
+
+清理默认的 logging provider 和增加的示例：
+
+```csharp
+static IHostBuilder CreateHostBuilder(string[] args) =>
+    Host.CreateDefaultBuilder(args)
+        .ConfigureLogging(logging =>
+        {
+            logging.ClearProviders();
+            logging.AddConsole();
+        });
+```
+
 ### 5. 集成 Serilog
 * [在 .NET 中集成 Serilog](https://www.cnblogs.com/haogj/p/16437590.html)
 
