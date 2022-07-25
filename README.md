@@ -131,7 +131,13 @@ static IHostBuilder CreateHostBuilder(string[] args) =>
         });
 ```
 
-### 5. 集成 Serilog
+这里的 AddConsole() 就是来自 Microsoft.Extensions.Logging.Console 的一个扩展方法
+    
+```csharp
+public static Microsoft.Extensions.Logging.ILoggingBuilder AddConsole (this Microsoft.Extensions.Logging.ILoggingBuilder builder);
+```
+
+### 6. 集成 Serilog
 * [在 .NET 中集成 Serilog](https://www.cnblogs.com/haogj/p/16437590.html)
 
 ## Server
