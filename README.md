@@ -195,3 +195,11 @@ AddTransientHttpErrorPolicy() 方法，可以很方便地配置一个策略来�
 ## Web API
 
 * [使用 ASP.NET Core 5 Web API 创建可发现的 HTTP API](https://www.cnblogs.com/haogj/p/14494731.html)
+
+### Carter
+
+项目地址：https://github.com/CarterCommunity/Carter
+
+Carter is a framework that is a thin layer of extension methods and functionality over ASP.NET Core allowing the code to be more explicit and most importantly more enjoyable.
+
+For a better understanding, take a good look at the samples inside this repo. The samples demonstrate usages of elegant extensions around common ASP.NET Core types as shown below.
