@@ -224,3 +224,10 @@ In-process messaging with no dependencies.
 Supports request/response, commands, queries, notifications and events, synchronous and async with intelligent dispatching via C# generic variance.
 
 Examples in the wiki.
+    
+# FluentValidation
+    
+项目地址：https://github.com/FluentValidation/FluentValidation
+    
+A validation library for .NET that uses a fluent interface and lambda expressions for building strongly-typed validation rules.
+
