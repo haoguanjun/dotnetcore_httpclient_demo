@@ -203,3 +203,12 @@ AddTransientHttpErrorPolicy() 方法，可以很方便地配置一个策略来�
 Carter is a framework that is a thin layer of extension methods and functionality over ASP.NET Core allowing the code to be more explicit and most importantly more enjoyable.
 
 For a better understanding, take a good look at the samples inside this repo. The samples demonstrate usages of elegant extensions around common ASP.NET Core types as shown below.
+    
+### Orleans
+    
+项目地址：https://github.com/dotnet/orleans
+
+Orleans is a cross-platform framework for building robust, scalable distributed applications
+Orleans builds on the developer productivity of .NET and brings it to the world of distributed applications, such as cloud services. Orleans scales from a single on-premises server to globally distributed, highly-available applications in the cloud.
+
+Orleans takes familiar concepts like objects, interfaces, async/await, and try/catch and extends them to multi-server environments. As such, it helps developers experienced with single-server applications transition to building resilient, scalable cloud services and other distributed applications. For this reason, Orleans has often been referred to as "Distributed .NET".
