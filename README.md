@@ -271,3 +271,8 @@ PDF viewer based on the PDFium project.
 
 https://www.nuget.org/packages/MongoDB.Driver
     
+### Redis
+
+https://www.nuget.org/packages/StackExchange.Redis/
+
+High performance Redis client, incorporating both synchronous and asynchronous usage.
