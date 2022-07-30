@@ -260,3 +260,9 @@ https://github.com/chromium/pdfium
 https://www.nuget.org/packages/Pdfium.Net.SDK
     
 Pdfium.NET SDK it's a class library based on the PDFium project for viewing, text extracting, navigating and editing PDF files in your .NET projects. With the PDF Viewer control, you can display PDF files directly in your WinForms and WPF application without the need to install an external PDF viewer application on your end user's machine. This control supports zooming, scrolling, bookmarks, text search, continuous page layout and provides a ready-to-go toolbars, so you can quickly incorporate it into your application.
+
+### Pdfium Viewer
+    
+https://www.nuget.org/packages/PdfiumViewer/
+    
+PDF viewer based on the PDFium project.
