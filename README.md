@@ -238,3 +238,25 @@ Video: https://docs.microsoft.com/zh-cn/shows/on-net/yarp-the-net-reverse-proxy
 源码地址：https://github.com/microsoft/reverse-proxy
 
 YARP is a reverse proxy toolkit for building fast proxy servers in .NET using the infrastructure from ASP.NET and .NET. The key differentiator for YARP is that it's been designed to be easily customized and tweaked to match the specific needs of each deployment scenario.
+
+### Autofac
+    
+官方站点：https://autofac.org/
+
+https://github.com/autofac/Autofac
+    
+### PdfSharp
+    
+源码地址：https://github.com/empira/PDFsharp
+
+A .NET library for processing PDF
+    
+### Pdfium
+    
+https://github.com/chromium/pdfium
+    
+### Pdfium.NET SDK
+    
+https://www.nuget.org/packages/Pdfium.Net.SDK
+    
+Pdfium.NET SDK it's a class library based on the PDFium project for viewing, text extracting, navigating and editing PDF files in your .NET projects. With the PDF Viewer control, you can display PDF files directly in your WinForms and WPF application without the need to install an external PDF viewer application on your end user's machine. This control supports zooming, scrolling, bookmarks, text search, continuous page layout and provides a ready-to-go toolbars, so you can quickly incorporate it into your application.
