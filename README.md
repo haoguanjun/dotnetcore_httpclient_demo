@@ -266,3 +266,8 @@ Pdfium.NET SDK it's a class library based on the PDFium project for viewing, tex
 https://www.nuget.org/packages/PdfiumViewer/
     
 PDF viewer based on the PDFium project.
+
+### Mongo DB driver
+
+https://www.nuget.org/packages/MongoDB.Driver
+    
