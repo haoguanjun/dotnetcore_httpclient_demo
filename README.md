@@ -212,3 +212,15 @@ Orleans is a cross-platform framework for building robust, scalable distributed 
 Orleans builds on the developer productivity of .NET and brings it to the world of distributed applications, such as cloud services. Orleans scales from a single on-premises server to globally distributed, highly-available applications in the cloud.
 
 Orleans takes familiar concepts like objects, interfaces, async/await, and try/catch and extends them to multi-server environments. As such, it helps developers experienced with single-server applications transition to building resilient, scalable cloud services and other distributed applications. For this reason, Orleans has often been referred to as "Distributed .NET".
+
+### MediatR
+
+项目地址：https://github.com/jbogard/MediatR
+    
+Simple mediator implementation in .NET
+
+In-process messaging with no dependencies.
+
+Supports request/response, commands, queries, notifications and events, synchronous and async with intelligent dispatching via C# generic variance.
+
+Examples in the wiki.
