@@ -276,3 +276,10 @@ https://www.nuget.org/packages/MongoDB.Driver
 https://www.nuget.org/packages/StackExchange.Redis/
 
 High performance Redis client, incorporating both synchronous and asynchronous usage.
+
+### Tuple types
+[Tuple types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples)
+
+### language-ext
+[language-ext](https://github.com/haoguanjun/language-ext)
+
