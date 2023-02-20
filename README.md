@@ -283,3 +283,7 @@ High performance Redis client, incorporating both synchronous and asynchronous u
 ### language-ext
 [language-ext](https://github.com/haoguanjun/language-ext)
 
+### 常用委托
+* [Func](https://learn.microsoft.com/en-us/dotnet/api/system.func-1?view=net-7.0)
+* [Action](https://learn.microsoft.com/en-us/dotnet/api/system.action?view=net-7.0)
+* [Predicate](https://learn.microsoft.com/en-us/dotnet/api/system.predicate-1?view=net-7.0)
